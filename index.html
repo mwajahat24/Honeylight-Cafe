@@ -3,456 +3,285 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Black Archive</title>
-    <link rel="stylesheet" href="style.css?v=12" />
+    <title>Honeylight Café</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <div class="left-red-hue"></div>
-    <div class="hypnotic-bg"></div>
-    <div class="fingerprint-bg"></div>
+    <div class="ambient-glow"></div>
     <div class="grain"></div>
-    <div class="scanlines"></div>
-    <div class="vignette"></div>
-    <div class="cursor-trail"></div>
+    <div class="cursor-glow"></div>
 
-    <div class="decrypt-screen" id="decryptScreen">
-      <div>
-        <h2>DECRYPTING FILE</h2>
-        <p id="decryptText">Restoring corrupted frames...</p>
-        <div class="decrypt-bar"><span></span></div>
-      </div>
-    </div>
+    <header class="site-header">
+      <a href="#home" class="logo">Honeylight <span>Café</span></a>
 
-    <div class="breach-alert" id="breachAlert">
-      <h2>UNAUTHORIZED ENTITY DETECTED</h2>
-      <p>Archive connection compromised.</p>
-    </div>
+      <nav class="desktop-nav">
+        <a href="#menu">Menu</a>
+        <a href="#story">Story</a>
+        <a href="#specials">Specials</a>
+        <a href="#events">Events</a>
+        <a href="#visit">Visit</a>
+      </nav>
 
-    <div class="classified-stamp">CLASSIFIED</div>
+      <a href="#visit" class="header-btn">Book a Table</a>
+    </header>
 
-    <div class="whisper w1 motion-text" data-speed="-7">file corrupted</div>
-    <div class="whisper w2 motion-text" data-speed="8">
-      subject still breathing
-    </div>
-    <div class="whisper w3 motion-text" data-speed="-6">
-      do not replay audio
-    </div>
-    <div class="whisper w4 motion-text" data-speed="7">
-      there is another listener
-    </div>
-    <div class="whisper w5 motion-text" data-speed="-8">
-      your reflection moved first
-    </div>
+    <main>
+      <section id="home" class="hero reveal">
+        <div class="hero-text">
+          <p class="eyebrow">Freshly baked • locally loved</p>
+          <h1>Warm pastries, golden coffee, and slow mornings.</h1>
+          <p>
+            Honeylight Café is a cozy neighborhood bakery café serving artisan
+            coffee, handmade pastries, brunch plates, and seasonal desserts.
+          </p>
 
-    <div class="layout">
-      <aside class="sidebar dizzy-layer" data-speed="-8">
-        <h1 class="motion-text" data-speed="6">
-          THE <span>BLACK</span> ARCHIVE
-        </h1>
-        <p class="subtitle">
-          Repository of forbidden recordings and documents.
-        </p>
-
-        <nav>
-          <a href="#evidence">Evidence</a>
-          <a href="#audio">Audio Logs</a>
-          <a href="#reports">Documents</a>
-          <a href="#cases">Case Files</a>
-          <a href="#registry">Redacted</a>
-        </nav>
-
-        <div class="status-panel">
-          <p><span>System Status</span>Unstable</p>
-          <p><span>Connection</span>Intermittent</p>
-          <p><span>Archive Node</span>TB-A7X</p>
+          <div class="hero-actions">
+            <a href="#menu" class="btn primary">View Menu</a>
+            <a href="#mood" class="btn">Find Your Drink</a>
+          </div>
         </div>
 
-        <div class="warning">
-          <h3>WARNING</h3>
-          <p>Proceed with caution. Not everything here is human.</p>
+        <div class="hero-art float-layer" data-speed="8">
+          <div class="plate">
+            <div class="cup">
+              <div class="coffee"></div>
+              <div class="steam s1"></div>
+              <div class="steam s2"></div>
+              <div class="steam s3"></div>
+            </div>
+            <div class="croissant"></div>
+            <div class="berry b1"></div>
+            <div class="berry b2"></div>
+          </div>
         </div>
-      </aside>
+      </section>
 
-      <main class="main">
-        <header class="topbar reveal">
-          <div>
-            <p class="quote motion-text" data-speed="-5">
-              “Some doors should remain closed.”
-            </p>
-            <p class="quote red motion-text" data-speed="5">
-              “Some voices should remain unheard.”
-            </p>
-          </div>
+      <section class="stats reveal">
+        <div>
+          <strong>24+</strong>
+          <span>Fresh bakes daily</span>
+        </div>
+        <div>
+          <strong>4.9</strong>
+          <span>Guest rating</span>
+        </div>
+        <div>
+          <strong>7 AM</strong>
+          <span>Doors open</span>
+        </div>
+        <div>
+          <strong>100%</strong>
+          <span>Small-batch coffee</span>
+        </div>
+      </section>
 
-          <div class="clearance dizzy-layer" data-speed="10">
-            <span>Access Level</span>
-            <strong>LEVEL 4</strong>
-            <small>Clearance Required</small>
-          </div>
-        </header>
-
-        <section class="hero reveal">
-          <p class="section-kicker motion-text" data-speed="-4">
-            Evidence // <span>6 items found</span>
-          </p>
-          <h2 class="motion-text" data-speed="7">Recovered Occult Evidence</h2>
+      <section id="menu" class="section reveal">
+        <div class="section-head">
+          <p class="eyebrow">Our Menu</p>
+          <h2>Made fresh, served with care.</h2>
           <p>
-            The following records were extracted from damaged drives, sealed
-            police evidence, abandoned facilities, and anomalous surveillance
-            equipment.
+            From buttery pastries to rich espresso, everything is built around
+            comfort and quality.
           </p>
+        </div>
 
-          <div class="hero-buttons">
-            <a href="#evidence" class="btn red">Open Archive</a>
-            <a href="#audio" class="btn">Review Audio</a>
-          </div>
+        <div class="menu-grid">
+          <article class="menu-card float-layer" data-speed="4">
+            <div class="food-art latte-art"></div>
+            <h3>Golden Honey Latte</h3>
+            <p>Espresso, steamed milk, wildflower honey, cinnamon dust.</p>
+            <strong>$5.20</strong>
+          </article>
 
-          <div class="archive-search">
-            <input
-              id="archiveSearch"
-              type="text"
-              placeholder="Search archive: chapel, door, audio, forest..."
-            />
-            <p id="searchStatus">Search index ready. 6 files available.</p>
-          </div>
-        </section>
-
-        <section id="evidence" class="content-grid reveal">
-          <div class="evidence-grid" id="evidenceGrid">
-            <article
-              class="evidence-card dizzy-layer"
-              data-speed="6"
-              data-scene="photo-hallway"
-              data-title="EV_0017_CAM7.mp4"
-              data-type="Security Footage"
-              data-date="07/14/2012"
-              data-desc="Late night security footage. Subject appears in frame at 03:17:41. Motion anomaly detected. Further analysis halted."
-            >
-              <div class="photo photo-hallway">
-                <span class="timestamp">03:17:42<br />CAM 07</span>
-                <div class="hall-figure"></div>
-              </div>
-              <div class="label">
-                <h3>EV_0017_CAM7.mp4</h3>
-                <p>Security Footage</p>
-                <small>07/14/2012</small>
-              </div>
-            </article>
-
-            <article
-              class="evidence-card dizzy-layer"
-              data-speed="-7"
-              data-scene="photo-door"
-              data-title="EV_0023_DOOR.jpg"
-              data-type="Site Photo"
-              data-date="07/16/2012"
-              data-desc="Basement door recovered from Site 19. The door appeared open in all photographs despite being sealed shut on-site."
-            >
-              <div class="photo photo-door">
-                <div class="red-door"></div>
-              </div>
-              <div class="label">
-                <h3>EV_0023_DOOR.jpg</h3>
-                <p>Site Photo</p>
-                <small>07/16/2012</small>
-              </div>
-            </article>
-
-            <article
-              class="evidence-card dizzy-layer"
-              data-speed="5"
-              data-scene="photo-ritual"
-              data-title="EV_0031_RITUAL.jpg"
-              data-type="Forensic Photo"
-              data-date="07/18/2012"
-              data-desc="Ritual floor markings found beneath Blackwell Chapel. Pattern changed between photographs."
-            >
-              <div class="photo photo-ritual">
-                <div class="sigil"></div>
-                <div class="candle c1"></div>
-                <div class="candle c2"></div>
-                <div class="candle c3"></div>
-              </div>
-              <div class="label">
-                <h3>EV_0031_RITUAL.jpg</h3>
-                <p>Forensic Photo</p>
-                <small>07/18/2012</small>
-              </div>
-            </article>
-
-            <article
-              class="evidence-card dizzy-layer"
-              data-speed="-6"
-              data-scene="photo-forest"
-              data-title="EV_0042_FOREST.jpg"
-              data-type="Drone Footage Stills"
-              data-date="07/20/2012"
-              data-desc="Tree line footage taken at 02:04 AM. Figure remains stationary across 416 frames."
-            >
-              <div class="photo photo-forest">
-                <div class="trees"></div>
-                <div class="forest-figure"></div>
-              </div>
-              <div class="label">
-                <h3>EV_0042_FOREST.jpg</h3>
-                <p>Drone Footage Stills</p>
-                <small>07/20/2012</small>
-              </div>
-            </article>
-
-            <article
-              class="evidence-card dizzy-layer"
-              data-speed="8"
-              data-scene="photo-chapel"
-              data-title="EV_0055_CHAPEL.jpg"
-              data-type="Site Photo"
-              data-date="07/22/2012"
-              data-desc="Interior of chapel after incident. Thirteen silhouettes seen in stained glass reflection. Only twelve people entered."
-            >
-              <div class="photo photo-chapel">
-                <div class="chapel-window"></div>
-                <div class="pews"></div>
-              </div>
-              <div class="label">
-                <h3>EV_0055_CHAPEL.jpg</h3>
-                <p>Site Photo</p>
-                <small>07/22/2012</small>
-              </div>
-            </article>
-
-            <article
-              class="evidence-card dizzy-layer"
-              data-speed="-5"
-              data-scene="photo-tape"
-              data-title="EV_0066_AUDIO.jpg"
-              data-type="Recovered Media"
-              data-date="07/24/2012"
-              data-desc="Cassette tape recovered from locked evidence cabinet. Label reads: DON’T LISTEN. Audio contains unidentified voice."
-            >
-              <div class="photo photo-tape">
-                <div class="tape">
-                  <div class="reel r1"></div>
-                  <div class="reel r2"></div>
-                  <span>DON'T LISTEN</span>
-                </div>
-              </div>
-              <div class="label">
-                <h3>EV_0066_AUDIO.jpg</h3>
-                <p>Recovered Media</p>
-                <small>07/24/2012</small>
-              </div>
-            </article>
-          </div>
-
-          <aside class="file-panel dizzy-layer" data-speed="9">
-            <div class="file-head">
-              <h3>Evidence File</h3>
-              <span id="fileName">EV_0017_CAM7.mp4</span>
-            </div>
-
-            <div class="file-paper">
-              <p>
-                <b>FILE ID:</b> <span id="modalFile">EV_0017_CAM7.mp4</span>
-              </p>
-              <p><b>DATE:</b> <span id="modalDate">07/14/2012</span></p>
-              <p><b>TIME:</b> 03:17:42</p>
-              <p><b>SOURCE:</b> CAMERA 07 — HALLWAY</p>
-              <p>
-                <b>LOCATION:</b>
-                <span class="redacted reveal-redaction">SUBLEVEL 9</span>
-                FACILITY
-              </p>
-              <p><b>STATUS:</b> <span class="danger">CORRUPTED</span></p>
-
-              <p class="description" id="modalDesc">
-                Late night security footage. Subject appears in frame at
-                03:17:41. Motion anomaly detected. Further analysis halted.
-              </p>
-
-              <div class="black-redaction reveal-redaction">
-                ENTITY WAS ALREADY INSIDE
-              </div>
-              <div class="black-redaction short reveal-redaction">
-                DO NOT OPEN FRAME 317
-              </div>
-
-              <p class="signed">// AUTHORIZED PERSONNEL ONLY</p>
-            </div>
-          </aside>
-        </section>
-
-        <section id="audio" class="bottom-grid reveal">
-          <div class="audio-box dizzy-layer" data-speed="-7">
-            <div class="audio-head">
-              <h3>Recovered Tape Analysis</h3>
-              <span>LOG_0017</span>
-            </div>
-
-            <div class="tape-analysis">
-              <p><b>Source:</b> Psychiatric Session Tape</p>
-              <p><b>Condition:</b> Damaged / partially corrupted</p>
-              <p><b>Voice Count:</b> 2 confirmed, 1 unidentified</p>
-              <p>
-                <b>Signal Notes:</b> Low-frequency distortion detected beneath
-                speech.
-              </p>
-
-              <div class="analysis-warning">
-                WARNING: Listener reports include nausea, missing time, and
-                auditory persistence.
-              </div>
-
-              <div class="anomaly-list">
-                <span>00:18 — background voice detected</span>
-                <span>00:42 — waveform inversion</span>
-                <span>01:09 — third speaker appears</span>
-                <span>01:31 — recording continues after stop mark</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="player dizzy-layer" data-speed="6">
-            <p>Current Recording: <span>The Doctor Original Voice</span></p>
-
-            <button class="play-btn" onclick="playForbiddenAudio()">
-              ▶ Listen To Recording
-            </button>
-            <button class="btn" onclick="stopForbiddenAudio()">
-              Stop Recording
-            </button>
-
-            <audio id="realSessionAudio" preload="auto">
-              <source src="assets/the-doctor.mp3" type="audio/mpeg" />
-            </audio>
-
-            <div class="waveform" id="waveform">
-              <span></span><span></span><span></span><span></span><span></span>
-              <span></span><span></span><span></span><span></span><span></span>
-            </div>
-
-            <div class="quality">
-              <p>Audio Status: <span id="audioStatus">Ready</span></p>
-              <p>Signal: <span class="bars"></span></p>
-            </div>
-          </div>
-        </section>
-
-        <section id="cases" class="case-strip reveal">
-          <div class="case-mini dizzy-layer" data-speed="4">
-            <h3>CASE 0017-A</h3>
-            <p>The Red Room Transmission</p>
-          </div>
-
-          <div class="case-mini dizzy-layer" data-speed="-4">
-            <h3>CASE 0042-C</h3>
-            <p>Blackwell Chapel Incident</p>
-          </div>
-
-          <div class="case-mini dizzy-layer" data-speed="5">
-            <h3>CASE 0091-X</h3>
-            <p>The Mirror That Kept Breathing</p>
-          </div>
-        </section>
-
-        <section class="timeline reveal">
-          <h3>Case Timeline</h3>
-
-          <div class="timeline-item">
-            <span>02:13 AM</span>
-            <p>Camera distortion begins near sealed basement hallway.</p>
-          </div>
-
-          <div class="timeline-item">
-            <span>02:17 AM</span>
+          <article class="menu-card float-layer" data-speed="-5">
+            <div class="food-art croissant-art"></div>
+            <h3>Almond Croissant</h3>
             <p>
-              Unidentified figure appears in frame. No door movement detected.
+              Flaky butter pastry filled with almond cream and toasted flakes.
             </p>
-          </div>
+            <strong>$4.80</strong>
+          </article>
 
-          <div class="timeline-item">
-            <span>02:19 AM</span>
+          <article class="menu-card float-layer" data-speed="5">
+            <div class="food-art toast-art"></div>
+            <h3>Sunrise Toast</h3>
+            <p>Sourdough, whipped ricotta, peach jam, basil, cracked pepper.</p>
+            <strong>$8.50</strong>
+          </article>
+
+          <article class="menu-card float-layer" data-speed="-4">
+            <div class="food-art cake-art"></div>
+            <h3>Lemon Cloud Cake</h3>
             <p>
-              Audio recovered from empty room. Breath pattern does not match
-              human lungs.
+              Soft lemon sponge, vanilla cream, citrus glaze, edible petals.
             </p>
-          </div>
+            <strong>$6.40</strong>
+          </article>
+        </div>
+      </section>
 
-          <div class="timeline-item">
-            <span>02:23 AM</span>
-            <p>
-              Archive records edited themselves. Operator removed from personnel
-              database.
-            </p>
-          </div>
-        </section>
+      <section id="mood" class="mood-section reveal">
+        <div class="section-head">
+          <p class="eyebrow">Interactive</p>
+          <h2>What should you order today?</h2>
+          <p>Pick your mood and we’ll recommend a café favorite.</p>
+        </div>
 
-        <section id="reports" class="report reveal dizzy-layer" data-speed="-5">
-          <h3>Recovered Report Fragment</h3>
+        <div class="mood-buttons">
+          <button onclick="recommendItem('cozy')">Cozy</button>
+          <button onclick="recommendItem('focused')">Focused</button>
+          <button onclick="recommendItem('sweet')">Sweet Tooth</button>
+          <button onclick="recommendItem('fresh')">Fresh & Light</button>
+        </div>
+
+        <div class="recommendation" id="recommendation">
+          Choose a mood to get your Honeylight order.
+        </div>
+      </section>
+
+      <section id="story" class="story reveal">
+        <div class="story-card">
+          <p class="eyebrow">Our Story</p>
+          <h2>A café built around golden hours.</h2>
           <p>
-            “The hallway was longer when I looked back. I counted the doors
-            twice. There were nine the first time and eleven the second. The
-            last door had my name on it.”
+            Honeylight began as a tiny weekend bakery stand with one goal: make
+            people pause for something warm. Today, we serve slow breakfasts,
+            bright seasonal desserts, and coffee roasted in small batches.
           </p>
+          <p>
+            Every corner of the café is designed for calm conversations, quiet
+            work sessions, and the kind of morning that makes the whole day
+            softer.
+          </p>
+        </div>
 
-          <div class="black-redaction reveal-redaction">
-            THE VOICE USED MY MOTHER'S NAME
+        <div class="window-art float-layer" data-speed="-6">
+          <div class="window-sun"></div>
+          <div class="plant p1"></div>
+          <div class="plant p2"></div>
+          <div class="table"></div>
+        </div>
+      </section>
+
+      <section id="specials" class="section reveal">
+        <div class="section-head">
+          <p class="eyebrow">This Week</p>
+          <h2>Seasonal specials.</h2>
+        </div>
+
+        <div class="special-grid">
+          <article>
+            <span>Monday</span>
+            <h3>Maple Morning Bun</h3>
+            <p>Sticky maple glaze, orange zest, cinnamon folds.</p>
+          </article>
+
+          <article>
+            <span>Wednesday</span>
+            <h3>Strawberry Cream Tart</h3>
+            <p>Vanilla custard, fresh berries, crisp pastry shell.</p>
+          </article>
+
+          <article>
+            <span>Friday</span>
+            <h3>Rose Cardamom Latte</h3>
+            <p>Soft floral notes with warm spice and espresso.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="events" class="events reveal">
+        <div class="section-head">
+          <p class="eyebrow">Community</p>
+          <h2>Events at the café.</h2>
+        </div>
+
+        <div class="event-list">
+          <div class="event">
+            <div>
+              <strong>Sat</strong>
+              <span>10 AM</span>
+            </div>
+            <article>
+              <h3>Watercolor & Coffee</h3>
+              <p>A relaxed morning painting session with pastries included.</p>
+            </article>
           </div>
-          <div class="black-redaction medium reveal-redaction">
-            THE DOOR WAS BREATHING
+
+          <div class="event">
+            <div>
+              <strong>Sun</strong>
+              <span>6 PM</span>
+            </div>
+            <article>
+              <h3>Acoustic Golden Hour</h3>
+              <p>Local musicians, candlelit tables, and dessert specials.</p>
+            </article>
           </div>
-        </section>
 
-        <section id="registry" class="registry reveal">
-          <form
-            onsubmit="submitReport(event)"
-            class="dizzy-layer"
-            data-speed="5"
-          >
-            <h3>Submit Incident Report</h3>
-            <input type="text" placeholder="Name / Alias" required />
-            <input type="email" placeholder="Secure Email" required />
-            <input type="text" placeholder="Location" />
-            <textarea
-              placeholder="Describe what you saw. Include sounds, smells, missing time, and whether it noticed you."
-            ></textarea>
-            <button class="btn red" type="submit">Submit Report</button>
-          </form>
-        </section>
+          <div class="event">
+            <div>
+              <strong>Tue</strong>
+              <span>8 AM</span>
+            </div>
+            <article>
+              <h3>Quiet Work Morning</h3>
+              <p>
+                Low music, free refills, and reserved laptop-friendly tables.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
 
-        <footer>
-          <p>© 2026 The Black Archive. Unauthorized access has been logged.</p>
-        </footer>
-      </main>
-    </div>
+      <section id="visit" class="visit reveal">
+        <div class="visit-info">
+          <p class="eyebrow">Visit Us</p>
+          <h2>Come by for something warm.</h2>
+
+          <div class="info-grid">
+            <p><b>Address</b><span>42 Orchard Lane, Sunmere District</span></p>
+            <p><b>Hours</b><span>Mon–Sun, 7:00 AM – 9:00 PM</span></p>
+            <p><b>Email</b><span>hello@honeylight.cafe</span></p>
+            <p><b>Phone</b><span>+1 555 0182</span></p>
+          </div>
+        </div>
+
+        <form class="booking-form" onsubmit="bookTable(event)">
+          <h3>Reserve a table</h3>
+          <input type="text" placeholder="Your name" required />
+          <input type="email" placeholder="Email address" required />
+          <input type="date" required />
+          <select required>
+            <option value="">Guests</option>
+            <option>1 guest</option>
+            <option>2 guests</option>
+            <option>3 guests</option>
+            <option>4 guests</option>
+            <option>5+ guests</option>
+          </select>
+          <textarea placeholder="Any special request?"></textarea>
+          <button class="btn primary" type="submit">Request Booking</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        © 2026 Honeylight Café. Crafted with warmth, coffee, and good crumbs.
+      </p>
+    </footer>
 
     <nav class="mobile-nav">
-      <a href="#evidence">Evidence</a>
-      <a href="#audio">Audio</a>
-      <a href="#cases">Cases</a>
-      <a href="#registry">Report</a>
+      <a href="#home">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#mood">Mood</a>
+      <a href="#visit">Visit</a>
     </nav>
 
-    <div class="modal" id="evidenceModal">
-      <div class="modal-content">
-        <button class="modal-close" onclick="closeModal()">×</button>
+    <div class="toast" id="toast">Booking request sent ✨</div>
 
-        <div class="modal-photo" id="modalPhoto"></div>
-
-        <h3 id="modalTitle">Evidence File</h3>
-        <p id="modalType">Security Footage</p>
-        <p id="modalDateLarge">07/14/2012</p>
-        <p id="modalLargeDesc">Description</p>
-
-        <div class="modal-redacted reveal-redaction">
-          ANALYSIS FAILED: SUBJECT LOOKED BACK
-        </div>
-
-        <button class="btn red" onclick="triggerGlitch()">Run Analysis</button>
-      </div>
-    </div>
-
-    <script src="https://unpkg.com/tone@14.7.77/build/Tone.js"></script>
-    <script src="script.js?v=12"></script>
+    <script src="script.js"></script>
   </body>
 </html>
